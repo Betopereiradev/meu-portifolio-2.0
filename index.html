@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -53,16 +55,17 @@
         <img src="./assets/arrow.svg" alt="">
       </div>
 
-      <section class="sobre-mim">
+    </script>
+      <section class="sobre-mim" data-aos="fade-up">
 
         <h1>SOBRE MIM.<span class="barra">|</span></h1>
         
        <div class="perfil-wrapper">
 
-        <div class="parte-foto-perfil">
+        <div class="parte-foto-perfil" data-aos="fade-up">
         </div>
 
-        <div class="parte-info-perfil">
+        <div class="parte-info-perfil" data-aos="fade-up">
 
           <div class="info">
             <img src="./assets/ico1.svg" alt="">
@@ -98,35 +101,35 @@
 
       </section>
 
-      <section class="skills">
+      <section class="skills" data-aos="fade-up">
 
         <h1>MINHAS SKILLS.<span class="barra">|</span></h1>
 
         <div class="card-wrapper">
 
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <h1>HTML</h1>
             <p>Cerca de 6 meses de experiência com HTML5, sempre praticando fazendo projetos pessoais.</p>
             <p>Bons conhecimentos de semântica e estrutura.</p>
           </div>
 
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <h1>CSS</h1>
             <p>Cerca de 6 meses de experiência com CSS3. Costumo praticar bastante construindo layouts, responsividade, animações e conceitos de design.</p>
 
           </div>
 
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <h1>Java <br>Script</h1>
             <p>Cerca de 2 meses de experiência utilizando JavaScript em pequenos projetos pessoais como validação de formulários. É a linguagem que estou mais focado em aprender ultimamente.</p>
           </div>
 
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <h1>Boot <br>Strap</h1>
             <p>Cerca de 3 meses de experiência utilizando Bootstrap em projetos pessoais, porém prefiro criar e estilizar tudo do zero.</p>
           </div>
 
-          <div class="card">
+          <div class="card" data-aos="fade-up"> 
             <h1>React</h1>
             <p>Pretendo estudar o React e React Native assim que tiver uma base sólida de JavaScript </p>
           </div>
@@ -136,11 +139,11 @@
       </section>
 
 
-      <section class="projetos">
+      <section class="projetos" data-aos="fade-up">
         <h1>PROJETOS.<span class="barra">|</span></h1>
         <p>Alguns projetos pessoais de estudo.</p>
 
-        <div class="projetos-wrapper">
+        <div class="projetos-wrapper" data-aos="fade-up">
           <div class="projeto">
             <div>
               <img src="./assets/projeto1.png" alt="">
@@ -156,7 +159,7 @@
         </div>
 
 
-        <div class="projetos-wrapper">
+        <div class="projetos-wrapper" data-aos="fade-up">
           <div class="projeto">
             <div>
               <img src="./assets/projeto1.png" alt="">
@@ -172,7 +175,7 @@
         </div>
 
 
-        <div class="projetos-wrapper">
+        <div class="projetos-wrapper" data-aos="fade-up">
           <div class="projeto">
             <div>
               <img src="./assets/projeto1.png" alt="">
@@ -189,7 +192,7 @@
 
 
 
-        <div class="projetos-wrapper">
+        <div class="projetos-wrapper" data-aos="fade-up">
           <div class="projeto">
             <div>
               <img src="./assets/projeto1.png" alt="">
@@ -233,6 +236,9 @@
 
 
     </div>
-  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
