@@ -9,7 +9,7 @@
 :root {
   font-size: 62.5%;
 
-  --cor-primaria: #f5c814;
+  --cor-primaria: #f5cc14;
 }
 
 body {
@@ -165,7 +165,7 @@ button:hover {
   border: solid 4px black;
   -webkit-box-shadow: -10px 10px 0px 1px;
   -moz-box-shadow: -10px 10px 0px 1px;
-  box-shadow: -10px 10px 0px 1px #f5c814;
+  box-shadow: -10px 10px 0px 1px var(--cor-primaria);
 }
 
 .parte-info-perfil {
@@ -197,7 +197,10 @@ button:hover {
 }
 
 .redes {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .redes img {
@@ -242,7 +245,7 @@ button:hover {
   border: solid 4px black;
   -webkit-box-shadow: -10px 10px 0px 1px;
   -moz-box-shadow: -10px 10px 0px 1px;
-  box-shadow: -10px 10px 0px 1px #f5c814;
+  box-shadow: -10px 10px 0px 1px var(--cor-primaria);
 }
 
 .card:hover {
@@ -295,7 +298,7 @@ button:hover {
   border: solid 4px black;
   -webkit-box-shadow: -10px 10px 0px 1px;
   -moz-box-shadow: -10px 10px 0px 1px;
-  box-shadow: -10px 10px 0px 1px #f5c814;
+  box-shadow: -10px 10px 0px 1px var(--cor-primaria);
 }
 
 .projeto img {
@@ -311,11 +314,42 @@ button:hover {
   font-size: 2.4rem;
 }
 
+.projeto-info {
+  width: 50%;
+}
+
 /* =============== */
 
 
 footer {
-  height: 50rem;
+  margin-top: 200px;
+  height: 50vh;
+  width: 100%;
+
+  background-image: url('./assets/wave.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
+
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 200px;
+}
+
+.veja-mais {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 
@@ -359,6 +393,10 @@ footer {
     top: 0px;
   }
 }
+
+
+
+
 
 body::-webkit-scrollbar {
   width: 10px;

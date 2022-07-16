@@ -105,5 +105,15 @@
   .projeto img {
     object-fit: cover;
   }
+
+  .projeto-info {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 100px;
+  }
   
 }
